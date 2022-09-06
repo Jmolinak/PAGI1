@@ -1,0 +1,134 @@
+.avatar {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-top: 5px;
+    transition: all .5s;
+}
+
+body {
+    background-color: #F3E1DE;
+}
+
+header {
+    height: 53px;
+    border-style: solid;
+    background-color: black;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.avatar:hover {
+    transform: scale(1.000001);
+    width: 44px;
+    height: 44px;
+}
+
+.principal-container {
+
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'label', sans-serif;
+    margin-top: 80px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.imggalery img {
+    width: 200px;
+    height: 200px;
+    transition: all .5s;
+
+
+}
+
+.imggalery img:hover {
+    transform: scale(1.000001);
+    width: 250px;
+    height: 240px;
+    border: 5px solid blue;
+}
+
+.imggalery {
+    display: grid;
+    /*width: 800px;*/
+    grid-template-columns: 300px 300px 300px;
+    grid-auto-rows: 250px 250px;
+    justify-content: center;
+    align-items: center;
+    /*transform: translate(50%);*/
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.custom-select select::-ms-expand {
+    display: none;
+}
+
+.custom-select {
+
+    position: relative;
+    align-items: center;
+}
+
+.custom-select select {
+    height: 42px;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 'Quicksand', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.custom-select select:hover {
+    background: #B1E8CD;
+}
+
+
+
+.btnenviar input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.btnenviar input::-ms-expand {
+    display: none;
+}
+
+.btnenviar {
+    align-items: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-family: 'label', sans-serif;
+}
+
+.btnenviar input {
+    height: 42px;
+    border-radius: 0;
+    margin-top: 15px;
+    background: #cec7c7;
+    color: #7b7b7b;
+    font-size: 30px;
+    color: rgb(62, 136, 179);
+    font-family: 'label', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.btnenviar input:hover {
+    background: blue;
+}
